@@ -1,0 +1,137 @@
+
+table {
+	border: 2px solid #00008B;
+	border-radius: 10px; 
+	padding: 2px; 
+	text-align: center;
+	font-style: oblique;
+	margin: auto;
+	width: 70%;
+	} 
+
+table.dataTable {
+    margin: 0 auto;
+    clear: both;
+    border-collapse: separate;
+  
+}
+	
+th {
+	border: 1px solid #00008B; 
+	border-radius: 8px;
+	padding: 4px 4px;
+	background-color: skyBlue;
+	text-align: center;
+	font-size: 20px;
+	font-style: oblique;
+	width: 10%;	
+	}
+
+td {
+	border: 1px solid #00008B; 
+	border-radius: 8px;
+	background-color: white;
+	text-align: center;
+	font-size: 20px;
+	font-style: oblique;
+	width: 10%;	
+	}
+	
+input, select { 
+	width: 30%;
+	padding-top: 10px;
+	padding-right: 4px;
+	padding-bottom: 5px;
+	margin-top: 2px;
+	margin-bottom: 5px;
+	border: 3px solid black;
+	box-sizing: border-box;
+	border-radius: 3px;
+	background-color: skyBlue;
+	text-align: left;
+	font-family: Verdana;
+	font-size: 16px;
+	font-style: oblique;	
+	}
+	
+legend {
+	width: 30%;
+	margin-left: 572px;
+	border: 2px solid #00008B;
+	border-radius: 12px;
+	padding: 5px;
+	border-color: #00008B;
+	box-sizing: border-box; 
+	color: #000080;
+	background-color: skyBlue;
+	text-align: center;
+	font-size: 24px;
+	font-style: oblique;
+	}
+	
+button {
+	background-color: #2E8B57;
+	border-radius: 12px;
+	color: white;
+	padding: 10px 20px;
+	text-align: center;
+	display: inline-block;
+	font-size: 16px;
+	font-style: oblique;
+	padding-bottom: 7px;
+	cursor: pointer;
+	} 
+	
+form{
+	width: 70%;
+	text-align: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	margin-bottom: 2px;
+
+	}
+	
+label {
+	font-size: 18px;
+	font-style: oblique;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-top: 1px;
+	text-align: left;
+	display: inline-block;
+	width: 190px;
+	}
+	
+.errorForm {
+	color:  red;
+	font-size: 18px;
+	font-style: oblique;
+	width: 90%;
+	text-align: left;
+	margin-top: 10px;
+	
+	}
+	
+#errorProductId{
+	padding-left: 5px;
+	} 
+	
+#errorExpiryDate{
+	padding-left: 16px;
+	} 
+	
+#errorProductCategory{
+	padding-left: 58px;
+	} 
+	
+#errorDescription{
+	padding-left: 12px;
+	}
+
+#Table_wrapper{
+	width: 90%;
+	margin: 0 auto;
+}
+#Table_filter input{
+	width: 60%;
+}
